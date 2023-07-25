@@ -58,7 +58,7 @@ nav {
 
 .hero-main-text {
     font-size: 48px;
-    font-weight: 900;
+    font-weight: 800;
     color: #F9FAF8;
     padding-left: 14rem;
 }
@@ -84,7 +84,24 @@ nav {
 }
 
 #hero-image {
-    margin-right: 20rem;
-    height: 30rem;
-    width: 34rem;
+    margin-right: 24rem;
+    height: 22rem;
+    width: 18rem;
+}
+
+.information-header-text {
+    text-align: center;
+    font-size: 36px;
+    font-weight: 800;
+    color: #1F2937;
+    padding-top: 2rem;
+}
+
+.section-2a {
+    display: flex;
+}
+
+#doge {
+    height: 15rem;
+    width: 15rem;
 }
