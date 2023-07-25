@@ -95,6 +95,10 @@ nav {
     border-radius: 0.8rem;
 }
 
+#hero-image:hover {
+    transform: scale(1.1);
+}
+
 .information-header-text {
     text-align: center;
     font-size: 36px;
@@ -103,7 +107,6 @@ nav {
     padding-top: 3rem;
     padding-bottom: 3rem;
 }
-
 
 .section-2 {
     height: 50vh;
@@ -118,6 +121,10 @@ nav {
 #doge {
     height: 15rem;
     width: 15rem;
+}
+
+#doge:hover {
+    transform: scale(1.05);
 }
 
 #image-tagline {
@@ -182,3 +189,15 @@ nav {
     border: solid 2px #E5E7EB;
     margin-right: 4rem;
 }
+
+.footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100vw;
+    min-height: 10vh;
+    margin: 0 auto;
+    background-color: #1F2937;
+    color: #F9FAF8;
+}
+
