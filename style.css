@@ -3,6 +3,7 @@
     padding: 0;
     box-sizing: border-box;
     font-family: 'Roboto', sans-serif;
+    scroll-behavior: smooth;
 }
 
 nav {
@@ -44,7 +45,7 @@ nav {
 
 .section-1 {
     width: 100vw;
-    height: 42vh;
+    height: 40vh;
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -85,7 +86,7 @@ nav {
 
 #hero-image {
     margin-right: 24rem;
-    height: 22rem;
+    height: 20rem;
     width: 18rem;
 }
 
@@ -94,14 +95,47 @@ nav {
     font-size: 36px;
     font-weight: 800;
     color: #1F2937;
-    padding-top: 2rem;
+    padding-top: 3rem;
+    padding-bottom: 3rem;
 }
 
+
+.section-2 {
+    height: 50vh;
+}
 .section-2a {
     display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100vw;
 }
 
 #doge {
     height: 15rem;
     width: 15rem;
+}
+
+#image-tagline {
+    text-align: center;
+    padding-top: 1.5rem;
+}
+
+.cards {
+    padding: 0 2rem;
+}
+
+.section-3 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 50vh;
+    background-color: #E5E7EB;
+    
+}
+
+#doge-quote {
+    font-size: 36px;
+    font-weight: light;
+    font-style: italic;
+    color: #1F2937;
 }
