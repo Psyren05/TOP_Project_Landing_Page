@@ -72,16 +72,20 @@ nav {
     margin-bottom: 1.5rem;
 }
 
-#sign-up-top {
+#sign-up-btn {
     width: 5.5rem;
     padding: 0.4rem;
-    margin-left: 14rem;
     background-color: #3882F6;
     color: #E5E7EB;
     font-weight: 800;
+    font-size: 18px;
     border-radius: 0.5rem;
-    border-color: transparent;
     cursor: pointer;
+}
+
+.sign-up-btn-top {
+    margin-left: 14rem;
+    border-color: transparent;
 }
 
 #hero-image {
@@ -119,6 +123,7 @@ nav {
 #image-tagline {
     text-align: center;
     padding-top: 1.5rem;
+    font-size: 18px;
 }
 
 .cards {
@@ -153,8 +158,27 @@ nav {
     justify-content: space-between;
     align-items: center;
     background-color: #3882F6;
-    width: 80%;
+    width: 70%;
     height: 40%;
     border-radius: 0.8rem;
     padding: 4rem;
+}
+
+.call-to-action-main-text {
+    font-size: 24px;
+    font-weight: bold;
+    color: #F9FAF8;
+    padding-bottom: 0.8rem; 
+    padding-left: 4rem;
+}
+
+.call-to-action-secondary-text {
+    font-size: 18px;
+    color: #E5E7EB;
+    padding-left: 4rem;
+}
+
+.sign-up-btn-bottom {
+    border: solid 2px #E5E7EB;
+    margin-right: 4rem;
 }
