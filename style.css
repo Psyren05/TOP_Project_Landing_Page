@@ -85,9 +85,10 @@ nav {
 }
 
 #hero-image {
-    margin-right: 24rem;
-    height: 20rem;
-    width: 18rem;
+    margin-right: 25rem;
+    height: auto;
+    width: 16rem;
+    border-radius: 0.8rem;
 }
 
 .information-header-text {
@@ -138,4 +139,22 @@ nav {
     font-weight: light;
     font-style: italic;
     color: #1F2937;
+}
+
+.section-4 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 50vh;
+}
+
+.section-4a {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #3882F6;
+    width: 80%;
+    height: 40%;
+    border-radius: 0.8rem;
+    padding: 4rem;
 }
